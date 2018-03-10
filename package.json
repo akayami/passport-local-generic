@@ -1,0 +1,48 @@
+{
+  "name": "passport-local-generic",
+  "version": "1.0.0",
+  "description": "Local authentication strategy for Passport with more flexible input.",
+  "keywords": [
+    "passport",
+    "local-generic",
+    "auth",
+    "authn",
+    "authentication",
+    "username",
+    "password"
+  ],
+  "author": {
+    "name": "Tomasz Rakowski ",
+    "email": "akayami@gmail.com",
+    "url": "http://www.akayami.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:akayami/passport-local-generic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akayami/passport-local-generic/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x",
+    "mocha": "5.0.4"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
